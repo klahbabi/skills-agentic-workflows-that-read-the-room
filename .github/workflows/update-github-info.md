@@ -1,9 +1,8 @@
 ---
 name: update-github-info
 
-engine:
-  id: copilot
-  model: gpt-5
+engine: copilot
+model: gpt-5-mini
 
 on:
   schedule: daily
